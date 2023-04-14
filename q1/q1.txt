@@ -1,0 +1,14 @@
+git commit -m "A"
+git branch develop
+git commit -m "C"
+git checkout develop
+git commit -m "B"
+git checkout master
+git merge develop
+(vi editor에서 커밋명 "D"로 변경)
+git checkout develop
+git commit -m "E"
+git checkout master
+git merge develop
+(vi editor에서 커밋명 "F"로 변경)
+git checkout develop
